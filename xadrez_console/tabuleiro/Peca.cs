@@ -10,9 +10,9 @@
 
         public Tabuleiro Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Tabuleiro tab, Cor cor)
+        public Peca(Tabuleiro tab, Cor cor)
         {
-            Posicao = posicao;
+            Posicao = null;
             Cor = cor;
             Tab = tab;
             QteMovimentos = 0;
